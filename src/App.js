@@ -1,10 +1,20 @@
-import './App.css';
+import { Container } from 'react-bootstrap';
+
+// components
+import Header from './components/Header';
+import SearchInput from './components/SearchInput';
+
+// styles
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <Header />
+      <Container>
+        <SearchInput />
+      </Container>
+    </>
   );
 }
 
